@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <AVOSCloud/AVOSCloud.h>
+#import <AVOSCloudCrashReporting/AVOSCloudCrashReporting.h>
 @interface ViewController : UIViewController
 
-
+- (void)crash; 
 @end
 

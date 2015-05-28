@@ -13,6 +13,9 @@
 @end
 
 @implementation ViewController
+- (void)crash {
+    [NSException raise:NSGenericException format:@"只是测试，模拟一条崩溃信息。"];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
