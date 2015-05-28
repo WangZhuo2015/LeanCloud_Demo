@@ -14,6 +14,16 @@
 		CB7523541B157B7900AA670D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7523531B157B7900AA670D /* Images.xcassets */; };
 		CB7523571B157B7900AA670D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB7523551B157B7900AA670D /* LaunchScreen.xib */; };
 		CB7523631B157B7900AA670D /* LeanCloud_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7523621B157B7900AA670D /* LeanCloud_DemoTests.m */; };
+		CB75236D1B157B9600AA670D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB75236C1B157B9600AA670D /* SystemConfiguration.framework */; };
+		CB75236F1B157BA000AA670D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB75236E1B157BA000AA670D /* MobileCoreServices.framework */; };
+		CB7523711B157BA400AA670D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7523701B157BA400AA670D /* CoreLocation.framework */; };
+		CB7523731B157BAE00AA670D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7523721B157BAE00AA670D /* CoreTelephony.framework */; };
+		CB7523751B157BB600AA670D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7523741B157BB600AA670D /* libicucore.dylib */; };
+		CB7523771B157BC300AA670D /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7523761B157BC300AA670D /* libc++.dylib */; };
+		CB75237A1B157BFD00AA670D /* AVOSCloudCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7523791B157BFD00AA670D /* AVOSCloudCrashReporting.framework */; };
+		CB75237B1B157BFD00AA670D /* AVOSCloudCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7523791B157BFD00AA670D /* AVOSCloudCrashReporting.framework */; };
+		CB75237D1B157C0900AA670D /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB75237C1B157C0900AA670D /* AVOSCloud.framework */; };
+		CB75237E1B157C0900AA670D /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB75237C1B157C0900AA670D /* AVOSCloud.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,14 @@
 		CB75235C1B157B7900AA670D /* LeanCloud_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCloud_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7523611B157B7900AA670D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB7523621B157B7900AA670D /* LeanCloud_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanCloud_DemoTests.m; sourceTree = "<group>"; };
+		CB75236C1B157B9600AA670D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CB75236E1B157BA000AA670D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CB7523701B157BA400AA670D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CB7523721B157BAE00AA670D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CB7523741B157BB600AA670D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		CB7523761B157BC300AA670D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		CB7523791B157BFD00AA670D /* AVOSCloudCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudCrashReporting.framework; sourceTree = "<group>"; };
+		CB75237C1B157C0900AA670D /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7523771B157BC300AA670D /* libc++.dylib in Frameworks */,
+				CB75237A1B157BFD00AA670D /* AVOSCloudCrashReporting.framework in Frameworks */,
+				CB7523751B157BB600AA670D /* libicucore.dylib in Frameworks */,
+				CB7523731B157BAE00AA670D /* CoreTelephony.framework in Frameworks */,
+				CB7523711B157BA400AA670D /* CoreLocation.framework in Frameworks */,
+				CB75236F1B157BA000AA670D /* MobileCoreServices.framework in Frameworks */,
+				CB75236D1B157B9600AA670D /* SystemConfiguration.framework in Frameworks */,
+				CB75237D1B157C0900AA670D /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB75237B1B157BFD00AA670D /* AVOSCloudCrashReporting.framework in Frameworks */,
+				CB75237E1B157C0900AA670D /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				CB7523451B157B7900AA670D /* LeanCloud_Demo */,
+				CB7523781B157BD400AA670D /* Frameworks */,
 				CB75235F1B157B7900AA670D /* LeanCloud_DemoTests */,
 				CB7523441B157B7900AA670D /* Products */,
 			);
@@ -119,6 +148,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CB7523781B157BD400AA670D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB75237C1B157C0900AA670D /* AVOSCloud.framework */,
+				CB7523791B157BFD00AA670D /* AVOSCloudCrashReporting.framework */,
+				CB7523761B157BC300AA670D /* libc++.dylib */,
+				CB7523741B157BB600AA670D /* libicucore.dylib */,
+				CB7523721B157BAE00AA670D /* CoreTelephony.framework */,
+				CB7523701B157BA400AA670D /* CoreLocation.framework */,
+				CB75236E1B157BA000AA670D /* MobileCoreServices.framework */,
+				CB75236C1B157B9600AA670D /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +173,7 @@
 				CB75233F1B157B7900AA670D /* Sources */,
 				CB7523401B157B7900AA670D /* Frameworks */,
 				CB7523411B157B7900AA670D /* Resources */,
+				CB75237F1B15831500AA670D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -213,6 +258,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB75237F1B15831500AA670D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "leancloud upload_symbol \\\n-f \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\" \\\n-i \"40r7fneph1fxw9ch66ndr4ijrljpgiaqr5zv7hva4yweisiu\" \\\n-k \"7353tv99l4c62znxxig918ah44q9nrp466af67zy8rexjxh3\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB75233F1B157B7900AA670D /* Sources */ = {
@@ -347,7 +408,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LeanCloud_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +423,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LeanCloud_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -370,6 +441,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -389,6 +461,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = LeanCloud_DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

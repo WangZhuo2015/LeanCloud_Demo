@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    //Crash
+    [self performSelector:@selector(crash) withObject:nil afterDelay:5.0];
 }
 
 - (void)didReceiveMemoryWarning {

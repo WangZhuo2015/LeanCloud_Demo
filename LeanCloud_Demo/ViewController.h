@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AVOSCloud/AVOSCloud.h>
 @interface ViewController : UIViewController
 
 

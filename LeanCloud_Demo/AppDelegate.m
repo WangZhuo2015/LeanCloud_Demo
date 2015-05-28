@@ -14,9 +14,21 @@
 
 @implementation AppDelegate
 
+- (void)crash {
+    [NSException raise:NSGenericException format:@"模拟一条崩溃信息。"];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // Enable Crash Reporting
+    [AVOSCloudCrashReporting enable];
+    
+    
+    [AVOSCloud setApplicationId:@"40r7fneph1fxw9ch66ndr4ijrljpgiaqr5zv7hva4yweisiu"
+                      clientKey:@"7353tv99l4c62znxxig918ah44q9nrp466af67zy8rexjxh3"];
+    
+    
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
 }
 
